@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a professor of political science at Collin College and a PhD student in the Public Policy and Political Economy program at UT Dallas.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ryan Rynbrandt",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a professor of political science at Collin College and a PhD student in the Public Policy and Political Economy program at UT Dallas."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Assignment 1"
+  },
+  {
+    "objectID": "EPPS6302Assgmt1.html",
+    "href": "EPPS6302Assgmt1.html",
+    "title": "Assignments 01",
+    "section": "",
+    "text": "Assignment 1"
+  },
+  {
+    "objectID": "EPPS6302Assgmt2.html",
+    "href": "EPPS6302Assgmt2.html",
+    "title": "Assignments 02",
+    "section": "",
+    "text": "Assignment 1"
   }
 ]
