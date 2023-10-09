@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ryan Rynbrandt",
+    "title": "Ryan T. Rynbrandt",
     "section": "",
-    "text": "ProfilePic\n\n\nProfessor Rynbrandt has been teaching courses in American and Texan government for nearly two decades. He is currently pursuing his PhD in Public Policy and Political economy at UT Dallas.\nResearch Interests:\nHuman Happiness, Well-being and Thriving\nMental Health Interventions\nEducation Economics and Policy\nHealth Policy\nContact Me:\nLinkedIn\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "ProfilePic\nRyan Rynbrandt is a Professor of Political Science at Collin College, where he has been teaching courses in American and Texan government for nearly two decades. He is currently pursuing his PhD in Public Policy and Political economy at UT Dallas."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a professor of political science at Collin College and a PhD student in the Public Policy and Political Economy program at UT Dallas."
+    "text": "I am a professor of political science at Collin College and a PhD student in the Public Policy and Political Economy program at UT Dallas.\nI am also currently raising funds for the American Cancer Society by running in a Spartan Race on October 21, 2023. Contribute in memory of someone you’ve lost to cancer. Contribute in celebration of someone who has survived it. Contribute so that fewer people have to fight this fight and so those who do have better support and a better chance than they have now. Any amount big or small is appreciated and helpful! Donations to this page are secure, go 100% to the American Cancer Society, and are tax deductible."
   },
   {
     "objectID": "assignments.html",
@@ -33,5 +33,19 @@
     "title": "EPPS 6302 Assignment 02",
     "section": "",
     "text": "Assignment 2\n\nRead Panel Management: How to manage your market research survey panel (https://www.qualtrics.com/experience-management/research/how-to-manage-panel/) - complete\nStart recruiting five panelists from friends or classmates. Determine what column is needed for a panel. Be sure to include the email addresses. Alternatively send the link to panelists to pilot test the Movie Rental survey. – complete. I sent the survey to my panel and have already had completed surveys.\n\n\n\n\nQualtricsPic\n\n\nB. Google Trends data a. Use Google Trends website to: i. Search Trump, Biden and Election - complete ii. Download the data - complete 1. Analyze the data: According to Google Trends, the data indicates the following: “Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.” a. Dates – Google Trends provided data from 9/17/23, 11:16:00-05.00 through 9/18/23, 11:08:00-05:00 b. Intervals – Google Trends provided data in intervals of 8 minutes\n\n\n\nGoogle Trends Data\n\n\n\nUse gtrendsR package to do a. (use gtrendsR01.R program)\nSearch Trump, Biden and Election - complete\n\n\nDownload the data - complete 1. Analyze the data: I was able to run the script, but spent a long time looking for a way to actually look at the data in R Studio in a way that would allow me to compare it to the data I downloaded from Google Trends and cannot seem to figure it out. When I try to view it, I get this:\n\nDates – clearly R produced a longer timeline, going all the way back to before 2005.\nIntervals – It is not clear to me what the intervals are since I can’t seem to find a way to view the actual data.\n\n\n\n\n\ngtrendsRpic\n\n\n\nWhat are the differences between the two methods? Using Google Trends directly doesn’t require coding knowledge and is quite user-friendly. For a while I didn’t know there was a script provided and struggled to find out how to write the code myself. Yet R has its advantages. Using R would allow automation of the process, allowing small changes to the script to make it simple to repeatedly retrieve and analyze the data in different ways. This would allow easier reproduction and customization of the analysis in the future.\n\n\n\n\nMy screenshot"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Ryan T. Rynbrandt",
+    "section": "Research Interests:",
+    "text": "Research Interests:\nHuman Happiness, Well-being and Thriving\nMental Health Interventions\nEducation Economics and Policy\nHealth Policy"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Ryan T. Rynbrandt",
+    "section": "Contact Me:",
+    "text": "Contact Me:\nLinkedIn\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

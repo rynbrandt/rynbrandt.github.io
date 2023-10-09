@@ -1,0 +1,52 @@
+---
+title: "EPPS 6302 Assignment 03"
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+1.  Read about the package quanteda at https://quanteda.io/ - complete
+
+Quanteda is a free, open-source R package for quantitatively analyzing textual data.
+Its functions are aimed at managing and analyzing text data, including corpus management, tokenization, lexical analysis, content analysis, text classification, and text visualization.
+
+2.  Download quanteda_textanalytics01.R from Teams - complete
+
+3.Analyze: a.Biden-Xi summit data
+
+The Biden-Xi summit data was obtained from a CSV file hosted on GitHub.
+The data source is a collection of Twitter posts related to the summit that took place in November 2021.The dataset contains a total of 14520 observations of 90 variables.
+Each record represents an individual tweet posted on Twitter.
+
+In the analysis of the Biden-Xi summit data, tokenization prepared the text data for further analysis, which included text extraction, tokenization and cleaning of special characters and punctuation.
+Next, a document-feature matrix (DFM) was created.Each cell contains the frequency of a particular word in a specific tweet.
+Latent Semantic Analysis was then applied to the DFM.
+
+The top hashtags found were "#china", "#biden", "#xijinping", "#joebiden", "#america", "#americans" , "#coronavirus", "#fentanyl", "#xi", and "#uyghurgenocide".
+The prevalence of China-centric hashtags like #china, #xijinping, and #xi indicates a focus on China's role and leadership in the summit.
+The prevalence of hashtags like #biden, #joebiden and #america highlight the role of President Biden and the American government in the summit.
+The #coronavirus hashtag indicates the continuing importance of the pandemic.The fact that the pandemic began in China is likely a reason, though cooperation on pandemic response may have been indicated.
+The hashtag #fentanyl suggests that discussions about the opioid crisis, which has touched both countries, and the role of illicit fentanyl production particularly in China, were topics of concern.The presence of #uyghurgenocide highlights discussions related to human rights abuses in China.
+Overall, the top hashtags reflect discussions about diplomacy, leadership, global challenges, and significant geopolitical and human rights issues, offering an overview of public sentiment and concern regarding the summit.
+
+![](Rplot%20bidenxi%20hashtags.png)
+
+The top user mentions were "@potus", "@joebiden", @politico","@eneskanter","@jendeben","@nwadhams" , "@nba", "@washwizards", "@pelicansnba", "@capitalonearena", "@kevinliptakcnn","@foxbusiness", "@morningsmaria" , "@scmpnews", "@uyghur_american", "@nytimes", "@petermartin_pcm", "@nahaltoosi", "@phelimkine", and "@kaylatausche". The presence of "@potus" and "@joebiden" suggests that official accounts related to the U.S. government, including President Joe Biden's account, were active on Twitter trying to shape the narrative about the summit. Strangely, they don't appear on the plot produced by R. Several media-related accounts, such as "@politico," "@nytimes," and "@foxbusiness," indicate the influential role of media outlets and journalists in reporting on and analyzing the summit's developments. However, the hashtags related to the NBA are a bit puzzling, and I don't recognize the others.
+
+![](Rplot%20bidenxi%20topusers.png)
+
+b.US presidential inaugural speeches
+
+Here we perform text analysis on a subset of inaugural speeches the corpus where the "Year" is after 1949, focusing on three keywords ("american," "people," and "communist"). The code generates x-ray plots to visualize the context in which these keywords appear in the speeches and applies color coding to distinguish between the keywords in the plots. I ran the code that was given and it didn't work, so I asked ChatGPT for a fix based on the error message received. This time it worked, but it still will not include "communist" in the plot because it says that there are 0 observations.
+
+For the word "American" there are 74 observations of 7 variables and for the word "people" there are 156 observations of 7 variables. For "communist" there are 0 observations of 7 variables.
+
+![](Rplot%20LDP%20pres%20speech%20american%20people.png)
+
+i.Any similarities and differences over time and among presidents?
+
+There seems to be a cycling in the usage of "American" over time. That cycle seems to have at least a loose tie to the party of the president, with Republican presidents using the word less than Democratic presidents. There is less of a distinct patter in the usage of "People". 
+
+4.What is Wordfish? (Do research on quanteda website)
+
+According to the Quanteda website, "Wordfish is a Poisson scaling model that estimates one-dimension document positions using maximum likelihood." It estimates the positions of documents along a single dimension based on observed word frequencies in the documents.Wordfish can be used to visualize textual data to highlight latent relationships between documents.
