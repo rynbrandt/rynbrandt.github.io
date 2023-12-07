@@ -1,0 +1,53 @@
+---
+title: "EPPS 6302 Assignment 08"
+format: html
+editor: visual
+---
+
+## Read **A Guide to Working with US Census Data in R**
+
+complete
+
+## Get an API key from Census using this website (http://api.census.gov/data/key_signup.html) 
+
+complete
+
+## Run spatialdata01.R and spatialdata02.R. 
+
+The script "spatialdata01.R" fetches Census data related to the median age for each state in 2019 and creates a map using the ggplot2 package to represent the data. The resulting map (below) shows how median age varies across different states in the U.S.
+
+![](EPPS6302%20Asgmt8%20Rplot01%20Median%20Age%20by%20State%202019.png)
+
+The script "spatialdata2" collects and maps Census data related to income in Texas, with a specific focus on Dallas County, for the year 2020. The color intensity on the maps represents variations in income levels. The first map provides a visual representation of income distribution across different geographic areas within Texas. The second map is an interactive map that focuses on income distribution in Dallas county.
+
+![](EPPS6302%20Asgmt8%20Rplot04%202020%20income%20estimate.png){width="488"}
+
+I was unable to embed the interactive map in this page, so I took a screenshot instead
+
+![](EPPS6302%20Asgmt8%20Rplot05%202020%20dallas%20income%20estimate.png){width="677"}
+
+## Compare different years of data (e.g. 2010 and 2020)
+
+I begin by comparing the median age by state maps. First I created the following map for 2009 data:
+
+![](EPPS6302%20Asgmt%208%20Rplot02%20Median%20Age%20by%20State%202009.png)
+
+Then I created the following map for 2021 data. The comparison reveals a decrease in the median age in much of the central United States and some other states like Pennsylvania.
+
+![](EPPS6302%20Asgmt8%20Rplot%2003%20Median%20Age%20by%20State%202021.png)
+
+Next I compared the Texas income data for two different years. First I created the following map for 2011.
+
+![Texas Income Distribution 2011](EPPS6302%20Asgmt%208%20Rplot06%20dallas%20income%20estimate%202011.png){fig-align="center"}
+
+Then I created the map for 2021. The comparison shows an increase in median household incomes in a variety of counties in West Texas and the Panhandle, but also in a variety of areas outside the cities of the Texas Triangle.
+
+![Texas Income Distribution 2021](EPPS6302%20Asgmt8%20Rplot07%20dallas%20income%20estimate%202021.png){fig-align="center"}
+
+To compare the change in Dallas County over time, I first created the map for 2011
+
+![Dallas Income Distribution 2011](EPPS6302%20Asgmt8%20Rplot05%202011%20dallas%20income%20estimate.png){fig-align="center"}
+
+Then I created the map for 2021. The comparison shows a striking increase in median income particular in north central Dallas County.
+
+![Dallas Income Distribution 2021](EPPS6302%20Asgmt8%20Rplot05%202021%20dallas%20income%20estimate.png){fig-align="center"}

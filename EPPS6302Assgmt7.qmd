@@ -1,0 +1,45 @@
+---
+title: "EPPS 6302 Assignment 07"
+format: html
+editor: visual
+---
+
+## 
+
+# **Assignment 7: Government data and parallel processing**
+
+## **1) Run govdata01.R and parallel01.R.**
+
+## **2) Start planning for storage and computational resources:**
+
+### **a) Note the space and time taken** 
+
+For govdata01, I searched for "vaccine" refined by "compilation of presidential documents" and"2020". This produced 173 records.
+
+I ran the following code to assess the time taken:
+
+\> end.time \<- Sys.time() \> time.taken \<- end.time - start.time \> time.taken
+
+Which Produced the following results:***Time difference of 9.709125 mins***
+
+I then ran the following code to assess the space taken
+
+\> \# Calculate and print total size of downloaded PDFs \> pdf_sizes \<- file.size(list.files(save_dir, pattern = "govfiles\_.\*\\.pdf\$", full.names = TRUE)) \> total_size \<- sum(pdf_sizes) \> message("Total size of downloaded PDFs:", total_size," bytes")
+
+Which produced the following results:***Total size of downloaded PDFs:59255740 bytes***
+
+### **b) Plan data management (e.g. database)** 
+
+I do not understand what this instruction means.
+
+<!-- -->
+
+## **3) Organize the data in data frames** 
+
+3.  This instruction also makes no sense to me as the data is already in a dataframe and there is no instruction as to how the data should be organized. So, I used the following code to create dataframes with subsets of data:
+
+Create a subset with selected columns selected_data \<- govfiles\[, c("id", "title", "publishdate", "otherLink1")\] Create a subset based on a condition (e.g., filter for rows where publishdate is after a specific date) filtered_data \<- govfiles\[govfiles\$publishdate \> as.Date("2020-04-01"), \]
+
+## **4) Learn other data storage methods (e.g. arrow, feather, parquet)** 
+
+I researched this

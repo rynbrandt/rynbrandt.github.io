@@ -8,7 +8,6 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-      - text: About
       - text: EPPS 6302 Assignments
         menu:
           - EPPS6302Assgmt1.qmd
@@ -17,7 +16,10 @@ website:
           - EPPS6302Assgmt4.qmd
           - EPPS6302Assgmt5.qmd
           - EPPS6302Assgmt7.qmd
-      - href: RynbrandtCV.qmd
+          - EPPS6302Assgmt8.qmd
+      - text: EPPS 6302 Final Project
+        menu:
+          - Rynbrandt_finalproject.pdf
       - text: Curriculum Vitae
         menu:
           - RynbrandtCV.qmd
