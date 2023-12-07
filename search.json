@@ -1,38 +1,17 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a professor of political science at Collin College and a PhD student in the Public Policy and Political Economy program at UT Dallas."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ryan T. Rynbrandt",
     "section": "",
     "text": "ProfilePic\nRyan Rynbrandt is a Professor of Political Science at Collin College, where he has been teaching courses in American and Texan government for nearly two decades. He is currently pursuing his PhD in Public Policy and Political economy at UT Dallas."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a professor of political science at Collin College and a PhD student in the Public Policy and Political Economy program at UT Dallas.\n\nhref: RynbrandtCV.qmd\ntext: Curriculum Vitae\n\nI am also currently raising funds for the American Cancer Society by running in a Spartan Race on October 21, 2023. Contribute in memory of someone you’ve lost to cancer. Contribute in celebration of someone who has survived it. Contribute so that fewer people have to fight this fight and so those who do have better support and a better chance than they have now. Any amount big or small is appreciated and helpful! Donations to this page are secure, go 100% to the American Cancer Society, and are tax deductible."
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Assignment 1"
-  },
-  {
-    "objectID": "EPPS6302Assgmt1.html",
-    "href": "EPPS6302Assgmt1.html",
-    "title": "EPPS 6302 Assignment 01",
-    "section": "",
-    "text": "Analyze Survey:\n\n\nHow is the survey structured? The survey begins with an introduction that is fairly incomplete. It should introduce the project more thoroughly but without biasing answers to the questions that follow. The intro is followed by 18 questions. The first 13 questions ask about the respondent’s preferences and behaviors regarding movies and software. The remaining questions ask about the respondent’s characteristics in terms of location, demographics, marital status and income.\nWhat is the questionnaire composed of? The questionnaire is composed of an introduction, a panel of statements to which the respondent can express degrees of agreement, numerous multiple choice questions, multiple yes/no questions, two questions asking the respondent to choose an expected cost, two questions that require a choice from a drop-down menu\nHow are the questions ordered? The survey begins with an introduction, which is followed by 18 questions. The first 13 questions ask about the respondent’s preferences and behaviors regarding movies and software. The remaining questions ask about the respondent’s characteristics in terms of location, demographics, marital status and income.\nCheck out the Import from Library option to consider importing:\n\n\nUS race question (under Demographics→US demographics) - complete\nUS Zip code question - complete\n\n\nChange the Look and Feel (paint roller icon on left menu) to select UT Dallas theme – complete\nUse Skip Logic in Q4, if answer is NO, skip to the question Q7 “Do you feel comfortable purchasing software over the internet? – complete\nApply Validation to every question (Force Response) – complete\nInsert Page break to save respondents from scrolling down the screen – complete\nWhat can be done to improve respondent’s experience? A better introduction would help.It should introduce the project thoroughly but without biasing the answers to come. But I think overall the survey does a good job being concise, providing understandable response options, using a variety of questions types, thanking the respondent before and after the survey, etc.\n\nAccording to the ExpertReview, a few things could be done to improve the respondent’s experience. These include optimizing the questions for mobile, completing translations for each question, making the questions accessible and WCAG 2.0AA compliant, and enabling checking for bots.\nThe completed assignment can be found at https://utdallas.qualtrics.com/jfe/form/SV_5ncdyREPX40LZWe\nFurther assignment: Importing a survey from Qualtrics library 1.Create a survey using your library, then choose Qualtrics library – complete\n\nChoose All Projects and Programs → Search for “Diversity and Inclusiveness Survey” – complete\nImport a block with income and education questions. – complete\nWhat is the difference between this block and previous Instrument? This block has a more detailed income question. It asks about total household income before taxes, rather than just about household income. It has six income categories rather than four and it includes a “prefer not to say” option. The previous instrument did not include a question about education.\n\nThe completed assignment can be found at https://utdallas.qualtrics.com/jfe/form/SV_eJMcPV4uwiCtWho"
-  },
-  {
-    "objectID": "EPPS6302Assgmt2.html",
-    "href": "EPPS6302Assgmt2.html",
-    "title": "EPPS 6302 Assignment 02",
-    "section": "",
-    "text": "Assignment 2\n\nRead Panel Management: How to manage your market research survey panel (https://www.qualtrics.com/experience-management/research/how-to-manage-panel/) - complete\nStart recruiting five panelists from friends or classmates. Determine what column is needed for a panel. Be sure to include the email addresses. Alternatively send the link to panelists to pilot test the Movie Rental survey. – complete. I sent the survey to my panel and have already had completed surveys.\n\n\n\n\nQualtricsPic\n\n\nB. Google Trends data a. Use Google Trends website to: i. Search Trump, Biden and Election - complete ii. Download the data - complete 1. Analyze the data: According to Google Trends, the data indicates the following: “Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.” a. Dates – Google Trends provided data from 9/17/23, 11:16:00-05.00 through 9/18/23, 11:08:00-05:00 b. Intervals – Google Trends provided data in intervals of 8 minutes\n\n\n\nGoogle Trends Data\n\n\n\nUse gtrendsR package to do a. (use gtrendsR01.R program)\nSearch Trump, Biden and Election - complete\n\n\nDownload the data - complete 1. Analyze the data: I was able to run the script, but spent a long time looking for a way to actually look at the data in R Studio in a way that would allow me to compare it to the data I downloaded from Google Trends and cannot seem to figure it out. When I try to view it, I get this:\n\nDates – clearly R produced a longer timeline, going all the way back to before 2005.\nIntervals – It is not clear to me what the intervals are since I can’t seem to find a way to view the actual data.\n\n\n\n\n\ngtrendsRpic\n\n\n\nWhat are the differences between the two methods? Using Google Trends directly doesn’t require coding knowledge and is quite user-friendly. For a while I didn’t know there was a script provided and struggled to find out how to write the code myself. Yet R has its advantages. Using R would allow automation of the process, allowing small changes to the script to make it simple to repeatedly retrieve and analyze the data in different ways. This would allow easier reproduction and customization of the analysis in the future.\n\n\n\n\nMy screenshot"
   },
   {
     "objectID": "index.html#research-interests",
@@ -49,6 +28,48 @@
     "text": "Contact Me:\nLinkedIn\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "EPPS6302Assgmt7.html#run-govdata01.r-and-parallel01.r.",
+    "href": "EPPS6302Assgmt7.html#run-govdata01.r-and-parallel01.r.",
+    "title": "EPPS 6302 Assignment 07",
+    "section": "1) Run govdata01.R and parallel01.R.",
+    "text": "1) Run govdata01.R and parallel01.R."
+  },
+  {
+    "objectID": "EPPS6302Assgmt7.html#start-planning-for-storage-and-computational-resources",
+    "href": "EPPS6302Assgmt7.html#start-planning-for-storage-and-computational-resources",
+    "title": "EPPS 6302 Assignment 07",
+    "section": "2) Start planning for storage and computational resources:",
+    "text": "2) Start planning for storage and computational resources:\n\na) Note the space and time taken \nFor govdata01, I searched for “vaccine” refined by “compilation of presidential documents” and”2020”. This produced 173 records.\nI ran the following code to assess the time taken:\n&gt; end.time &lt;- Sys.time() &gt; time.taken &lt;- end.time - start.time &gt; time.taken\nWhich Produced the following results:Time difference of 9.709125 mins\nI then ran the following code to assess the space taken\n&gt; # Calculate and print total size of downloaded PDFs &gt; pdf_sizes &lt;- file.size(list.files(save_dir, pattern = “govfiles_.*\\.pdf$”, full.names = TRUE)) &gt; total_size &lt;- sum(pdf_sizes) &gt; message(“Total size of downloaded PDFs:”, total_size,” bytes”)\nWhich produced the following results:Total size of downloaded PDFs:59255740 bytes\n\n\nb) Plan data management (e.g. database) \nI do not understand what this instruction means."
+  },
+  {
+    "objectID": "EPPS6302Assgmt7.html#organize-the-data-in-data-frames",
+    "href": "EPPS6302Assgmt7.html#organize-the-data-in-data-frames",
+    "title": "EPPS 6302 Assignment 07",
+    "section": "3) Organize the data in data frames ",
+    "text": "3) Organize the data in data frames \n\nThis instruction also makes no sense to me as the data is already in a dataframe and there is no instruction as to how the data should be organized. So, I used the following code to create dataframes with subsets of data:\n\nCreate a subset with selected columns selected_data &lt;- govfiles[, c(“id”, “title”, “publishdate”, “otherLink1”)] Create a subset based on a condition (e.g., filter for rows where publishdate is after a specific date) filtered_data &lt;- govfiles[govfiles$publishdate &gt; as.Date(“2020-04-01”), ]"
+  },
+  {
+    "objectID": "EPPS6302Assgmt7.html#learn-other-data-storage-methods-e.g.-arrow-feather-parquet",
+    "href": "EPPS6302Assgmt7.html#learn-other-data-storage-methods-e.g.-arrow-feather-parquet",
+    "title": "EPPS 6302 Assignment 07",
+    "section": "4) Learn other data storage methods (e.g. arrow, feather, parquet) ",
+    "text": "4) Learn other data storage methods (e.g. arrow, feather, parquet) \nI researched this"
+  },
+  {
+    "objectID": "EPPS6302Assgmt2.html",
+    "href": "EPPS6302Assgmt2.html",
+    "title": "EPPS 6302 Assignment 02",
+    "section": "",
+    "text": "Assignment 2\n\nRead Panel Management: How to manage your market research survey panel (https://www.qualtrics.com/experience-management/research/how-to-manage-panel/) - complete\nStart recruiting five panelists from friends or classmates. Determine what column is needed for a panel. Be sure to include the email addresses. Alternatively send the link to panelists to pilot test the Movie Rental survey. – complete. I sent the survey to my panel and have already had completed surveys.\n\n\n\n\nQualtricsPic\n\n\nB. Google Trends data a. Use Google Trends website to: i. Search Trump, Biden and Election - complete ii. Download the data - complete 1. Analyze the data: According to Google Trends, the data indicates the following: “Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.” a. Dates – Google Trends provided data from 9/17/23, 11:16:00-05.00 through 9/18/23, 11:08:00-05:00 b. Intervals – Google Trends provided data in intervals of 8 minutes\n\n\n\nGoogle Trends Data\n\n\n\nUse gtrendsR package to do a. (use gtrendsR01.R program)\nSearch Trump, Biden and Election - complete\n\n\nDownload the data - complete 1. Analyze the data: I was able to run the script, but spent a long time looking for a way to actually look at the data in R Studio in a way that would allow me to compare it to the data I downloaded from Google Trends and cannot seem to figure it out. When I try to view it, I get this:\n\nDates – clearly R produced a longer timeline, going all the way back to before 2005.\nIntervals – It is not clear to me what the intervals are since I can’t seem to find a way to view the actual data.\n\n\n\n\n\ngtrendsRpic\n\n\n\nWhat are the differences between the two methods? Using Google Trends directly doesn’t require coding knowledge and is quite user-friendly. For a while I didn’t know there was a script provided and struggled to find out how to write the code myself. Yet R has its advantages. Using R would allow automation of the process, allowing small changes to the script to make it simple to repeatedly retrieve and analyze the data in different ways. This would allow easier reproduction and customization of the analysis in the future.\n\n\n\n\nMy screenshot"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Assignment 1"
+  },
+  {
     "objectID": "RynbrandtCV.html",
     "href": "RynbrandtCV.html",
     "title": "Curriculum Vitae",
@@ -60,7 +81,7 @@
     "href": "RynbrandtCV.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\n2021-present\n2005\nUniversity of Texas Dallas PhD Program in Public Policy and Political Economy\nUniversity of Michigan, Ann Arbor MA Political Science Major: American Politics First Minor: Public Policy and Administration Second Minor: Research Methodology\n    1997    Western Michigan University\nBA International Politics BA Asian Studies Graduated summa cum laude 1996 Nagoya Gakuin University Certificate of Completion, Japanese Studies Program"
+    "text": "Education\n2021-present: University of Texas Dallas PhD Program in Public Policy and Political Economy\n2005: University of Michigan, Ann Arbor MA Political Science\nMajor: American Politics\nFirst Minor: Public Policy and Administration Second Minor: Research Methodology\n    1997    Western Michigan University\nBA International Politics BA Asian Studies Graduated summa cum laude 1996 Nagoya Gakuin University Certificate of Completion, Japanese Studies Program"
   },
   {
     "objectID": "RynbrandtCV.html#teaching-experience",
@@ -84,11 +105,11 @@
     "text": "Honors and awards\n    2020\n2018 Awarded Collin College/UTD Scholarship\nAwarded Special Recognition Inspirational Teaching Certificate, Collin Collegte\n    2013\n2012\n2009\n2004\n2004\n2004\n2003\n1999\n1997\n1997\n1997\n1992\n1992 Honored with establishment of second Ryan Rynbrandt Engaged Faculty Scholarship\nSelected as Director of Collin College Honors Institute\nHonored with establishment of Ryan Rynbrandt Engaged Faculty Scholarship\nGerald R. Ford Dissertation Fellowship and Research Grant\nUniversity of Michigan Outstanding Student Instructor Award, Rackham Graduate School\nUniversity of Michigan Political Science Department Thesis Grant Award\nJohn F. Kingdon Award for Outstanding Graduate Student Teaching\nUniversity of Michigan Regent’s Fellowship\nWestern Michigan University Presidential Scholar (selected by faculty as top political science student)\nD.C. Schilling Award in Political Science, Western Michigan University\nExcellence in Japanese Award, Western Michigan University Department of Languages and Linguistics\nUniversity Excellence Award, Western Michigan University\nMember Lee Honors College / Political Science Honors Department, Western Michigan University"
   },
   {
-    "objectID": "EPPS6302Assgmt3 copy.html",
-    "href": "EPPS6302Assgmt3 copy.html",
-    "title": "EPPS 6302 Assignment 03",
+    "objectID": "EPPS6302Assgmt1.html",
+    "href": "EPPS6302Assgmt1.html",
+    "title": "EPPS 6302 Assignment 01",
     "section": "",
-    "text": "Read about the package quanteda at https://quanteda.io/ - complete\n\nQuanteda is a free, open-source R package for quantitatively analyzing textual data. Its functions are aimed at managing and analyzing text data, including corpus management, tokenization, lexical analysis, content analysis, text classification, and text visualization.\n\nDownload quanteda_textanalytics01.R from Teams - complete\n\n3.Analyze: a.Biden-Xi summit data\nThe Biden-Xi summit data was obtained from a CSV file hosted on GitHub. The data source is a collection of Twitter posts related to the summit that took place in November 2021.The dataset contains a total of 14520 observations of 90 variables. Each record represents an individual tweet posted on Twitter.\nIn the analysis of the Biden-Xi summit data, tokenization prepared the text data for further analysis, which included text extraction, tokenization and cleaning of special characters and punctuation. Next, a document-feature matrix (DFM) was created.Each cell contains the frequency of a particular word in a specific tweet. Latent Semantic Analysis was then applied to the DFM.\nThe top hashtags found were “#china”, “#biden”, “#xijinping”, “#joebiden”, “#america”, “#americans” , “#coronavirus”, “#fentanyl”, “#xi”, and “#uyghurgenocide”. The prevalence of China-centric hashtags like #china, #xijinping, and #xi indicates a focus on China’s role and leadership in the summit. The prevalence of hashtags like #biden, #joebiden and #america highlight the role of President Biden and the American government in the summit. The #coronavirus hashtag indicates the continuing importance of the pandemic.The fact that the pandemic began in China is likely a reason, though cooperation on pandemic response may have been indicated. The hashtag #fentanyl suggests that discussions about the opioid crisis, which has touched both countries, and the role of illicit fentanyl production particularly in China, were topics of concern.The presence of #uyghurgenocide highlights discussions related to human rights abuses in China. Overall, the top hashtags reflect discussions about diplomacy, leadership, global challenges, and significant geopolitical and human rights issues, offering an overview of public sentiment and concern regarding the summit.\n\nThe top user mentions were “@potus”, “@joebiden”, @politico“,”@eneskanter“,”@jendeben“,”@nwadhams” , “@nba”, “@washwizards”, “@pelicansnba”, “@capitalonearena”, “@kevinliptakcnn”,“@foxbusiness”, “@morningsmaria” , “@scmpnews”, “@uyghur_american”, “@nytimes”, “@petermartin_pcm”, “@nahaltoosi”, “@phelimkine”, and “@kaylatausche”. The presence of “@potus” and “@joebiden” suggests that official accounts related to the U.S. government, including President Joe Biden’s account, were active on Twitter trying to shape the narrative about the summit. Strangely, they don’t appear on the plot produced by R. Several media-related accounts, such as “@politico,” “@nytimes,” and “@foxbusiness,” indicate the influential role of media outlets and journalists in reporting on and analyzing the summit’s developments. However, the hashtags related to the NBA are a bit puzzling, and I don’t recognize the others.\n\nb.US presidential inaugural speeches\nHere we perform text analysis on a subset of inaugural speeches the corpus where the “Year” is after 1949, focusing on three keywords (“american,” “people,” and “communist”). The code generates x-ray plots to visualize the context in which these keywords appear in the speeches and applies color coding to distinguish between the keywords in the plots. I ran the code that was given and it didn’t work, so I asked ChatGPT for a fix based on the error message received. This time it worked, but it still will not include “communist” in the plot because it says that there are 0 observations.\nFor the word “American” there are 74 observations of 7 variables and for the word “people” there are 156 observations of 7 variables. For “communist” there are 0 observations of 7 variables.\n\ni.Any similarities and differences over time and among presidents?\nThere seems to be a cycling in the usage of “American” over time. That cycle seems to have at least a loose tie to the party of the president, with Republican presidents using the word less than Democratic presidents. There is less of a distinct patter in the usage of “People”.\n4.What is Wordfish? (Do research on quanteda website)\nAccording to the Quanteda website, “Wordfish is a Poisson scaling model that estimates one-dimension document positions using maximum likelihood.” It estimates the positions of documents along a single dimension based on observed word frequencies in the documents.Wordfish can be used to visualize textual data to highlight latent relationships between documents."
+    "text": "Analyze Survey:\n\n\nHow is the survey structured? The survey begins with an introduction that is fairly incomplete. It should introduce the project more thoroughly but without biasing answers to the questions that follow. The intro is followed by 18 questions. The first 13 questions ask about the respondent’s preferences and behaviors regarding movies and software. The remaining questions ask about the respondent’s characteristics in terms of location, demographics, marital status and income.\nWhat is the questionnaire composed of? The questionnaire is composed of an introduction, a panel of statements to which the respondent can express degrees of agreement, numerous multiple choice questions, multiple yes/no questions, two questions asking the respondent to choose an expected cost, two questions that require a choice from a drop-down menu\nHow are the questions ordered? The survey begins with an introduction, which is followed by 18 questions. The first 13 questions ask about the respondent’s preferences and behaviors regarding movies and software. The remaining questions ask about the respondent’s characteristics in terms of location, demographics, marital status and income.\nCheck out the Import from Library option to consider importing:\n\n\nUS race question (under Demographics→US demographics) - complete\nUS Zip code question - complete\n\n\nChange the Look and Feel (paint roller icon on left menu) to select UT Dallas theme – complete\nUse Skip Logic in Q4, if answer is NO, skip to the question Q7 “Do you feel comfortable purchasing software over the internet? – complete\nApply Validation to every question (Force Response) – complete\nInsert Page break to save respondents from scrolling down the screen – complete\nWhat can be done to improve respondent’s experience? A better introduction would help.It should introduce the project thoroughly but without biasing the answers to come. But I think overall the survey does a good job being concise, providing understandable response options, using a variety of questions types, thanking the respondent before and after the survey, etc.\n\nAccording to the ExpertReview, a few things could be done to improve the respondent’s experience. These include optimizing the questions for mobile, completing translations for each question, making the questions accessible and WCAG 2.0AA compliant, and enabling checking for bots.\nThe completed assignment can be found at https://utdallas.qualtrics.com/jfe/form/SV_5ncdyREPX40LZWe\nFurther assignment: Importing a survey from Qualtrics library 1.Create a survey using your library, then choose Qualtrics library – complete\n\nChoose All Projects and Programs → Search for “Diversity and Inclusiveness Survey” – complete\nImport a block with income and education questions. – complete\nWhat is the difference between this block and previous Instrument? This block has a more detailed income question. It asks about total household income before taxes, rather than just about household income. It has six income categories rather than four and it includes a “prefer not to say” option. The previous instrument did not include a question about education.\n\nThe completed assignment can be found at https://utdallas.qualtrics.com/jfe/form/SV_eJMcPV4uwiCtWho"
   },
   {
     "objectID": "EPPS6302Assgmt3.html",
@@ -96,5 +117,61 @@
     "title": "EPPS 6302 Assignment 03",
     "section": "",
     "text": "Read about the package quanteda at https://quanteda.io/ - complete\n\nQuanteda is a free, open-source R package for quantitatively analyzing textual data. Its functions are aimed at managing and analyzing text data, including corpus management, tokenization, lexical analysis, content analysis, text classification, and text visualization.\n\nDownload quanteda_textanalytics01.R from Teams - complete\n\n3.Analyze: a.Biden-Xi summit data\nThe Biden-Xi summit data was obtained from a CSV file hosted on GitHub. The data source is a collection of Twitter posts related to the summit that took place in November 2021.The dataset contains a total of 14520 observations of 90 variables. Each record represents an individual tweet posted on Twitter.\nIn the analysis of the Biden-Xi summit data, tokenization prepared the text data for further analysis, which included text extraction, tokenization and cleaning of special characters and punctuation. Next, a document-feature matrix (DFM) was created.Each cell contains the frequency of a particular word in a specific tweet. Latent Semantic Analysis was then applied to the DFM.\nThe top hashtags found were “#china”, “#biden”, “#xijinping”, “#joebiden”, “#america”, “#americans” , “#coronavirus”, “#fentanyl”, “#xi”, and “#uyghurgenocide”. The prevalence of China-centric hashtags like #china, #xijinping, and #xi indicates a focus on China’s role and leadership in the summit. The prevalence of hashtags like #biden, #joebiden and #america highlight the role of President Biden and the American government in the summit. The #coronavirus hashtag indicates the continuing importance of the pandemic.The fact that the pandemic began in China is likely a reason, though cooperation on pandemic response may have been indicated. The hashtag #fentanyl suggests that discussions about the opioid crisis, which has touched both countries, and the role of illicit fentanyl production particularly in China, were topics of concern.The presence of #uyghurgenocide highlights discussions related to human rights abuses in China. Overall, the top hashtags reflect discussions about diplomacy, leadership, global challenges, and significant geopolitical and human rights issues, offering an overview of public sentiment and concern regarding the summit.\n\nThe top user mentions were “@potus”, “@joebiden”, @politico“,”@eneskanter“,”@jendeben“,”@nwadhams” , “@nba”, “@washwizards”, “@pelicansnba”, “@capitalonearena”, “@kevinliptakcnn”,“@foxbusiness”, “@morningsmaria” , “@scmpnews”, “@uyghur_american”, “@nytimes”, “@petermartin_pcm”, “@nahaltoosi”, “@phelimkine”, and “@kaylatausche”. The presence of “@potus” and “@joebiden” suggests that official accounts related to the U.S. government, including President Joe Biden’s account, were active on Twitter trying to shape the narrative about the summit. Strangely, they don’t appear on the plot produced by R. Several media-related accounts, such as “@politico,” “@nytimes,” and “@foxbusiness,” indicate the influential role of media outlets and journalists in reporting on and analyzing the summit’s developments. However, the hashtags related to the NBA are a bit puzzling, and I don’t recognize the others.\n\nb.US presidential inaugural speeches\nHere we perform text analysis on a subset of inaugural speeches the corpus where the “Year” is after 1949, focusing on three keywords (“american,” “people,” and “communist”). The code generates x-ray plots to visualize the context in which these keywords appear in the speeches and applies color coding to distinguish between the keywords in the plots. I ran the code that was given and it didn’t work, so I asked ChatGPT for a fix based on the error message received. This time it worked, but it still will not include “communist” in the plot because it says that there are 0 observations.\nFor the word “American” there are 74 observations of 7 variables and for the word “people” there are 156 observations of 7 variables. For “communist” there are 0 observations of 7 variables.\n\ni.Any similarities and differences over time and among presidents?\nThere seems to be a cycling in the usage of “American” over time. That cycle seems to have at least a loose tie to the party of the president, with Republican presidents using the word less than Democratic presidents. There is less of a distinct patter in the usage of “People”.\n4.What is Wordfish? (Do research on quanteda website)\nAccording to the Quanteda website, “Wordfish is a Poisson scaling model that estimates one-dimension document positions using maximum likelihood.” It estimates the positions of documents along a single dimension based on observed word frequencies in the documents.Wordfish can be used to visualize textual data to highlight latent relationships between documents."
+  },
+  {
+    "objectID": "EPPS6302Assgmt4.html",
+    "href": "EPPS6302Assgmt4.html",
+    "title": "EPPS 6302 Assignment 04",
+    "section": "",
+    "text": "I run the code provided and download the data:\n\nI run the code provided and download the popular videos data:\n\nI run the code provided for NBC News and create the dataframe for NBC videos:\n\nAnd download the sample comments:"
+  },
+  {
+    "objectID": "EPPS6302Assgmt4.html#run-youtubenews01.r",
+    "href": "EPPS6302Assgmt4.html#run-youtubenews01.r",
+    "title": "EPPS 6302 Assignment 04",
+    "section": "",
+    "text": "I run the code provided and download the data:\n\nI run the code provided and download the popular videos data:\n\nI run the code provided for NBC News and create the dataframe for NBC videos:\n\nAnd download the sample comments:"
+  },
+  {
+    "objectID": "EPPS6302Assgmt5.html",
+    "href": "EPPS6302Assgmt5.html",
+    "title": "EPPS 6302 Assignment 05",
+    "section": "",
+    "text": "1) Run textmining01.R and organize the data in data frames and run text analytics (e.g. Wordcloud) \n\n\n\n\n2) Run rvest01.R and organize the data in data frames and run text analytics (e.g. Wordcloud) \nI did these, but somehow I cannnot get it to work on this website"
+  },
+  {
+    "objectID": "EPPS6302Assgmt8.html",
+    "href": "EPPS6302Assgmt8.html",
+    "title": "EPPS 6302 Assignment 08",
+    "section": "",
+    "text": "complete"
+  },
+  {
+    "objectID": "EPPS6302Assgmt8.html#read-a-guide-to-working-with-us-census-data-in-r",
+    "href": "EPPS6302Assgmt8.html#read-a-guide-to-working-with-us-census-data-in-r",
+    "title": "EPPS 6302 Assignment 08",
+    "section": "",
+    "text": "complete"
+  },
+  {
+    "objectID": "EPPS6302Assgmt8.html#get-an-api-key-from-census-using-this-website-httpapi.census.govdatakey_signup.html",
+    "href": "EPPS6302Assgmt8.html#get-an-api-key-from-census-using-this-website-httpapi.census.govdatakey_signup.html",
+    "title": "EPPS 6302 Assignment 08",
+    "section": "Get an API key from Census using this website (http://api.census.gov/data/key_signup.html) ",
+    "text": "Get an API key from Census using this website (http://api.census.gov/data/key_signup.html) \ncomplete"
+  },
+  {
+    "objectID": "EPPS6302Assgmt8.html#run-spatialdata01.r-and-spatialdata02.r.",
+    "href": "EPPS6302Assgmt8.html#run-spatialdata01.r-and-spatialdata02.r.",
+    "title": "EPPS 6302 Assignment 08",
+    "section": "Run spatialdata01.R and spatialdata02.R. ",
+    "text": "Run spatialdata01.R and spatialdata02.R. \nThe script “spatialdata01.R” fetches Census data related to the median age for each state in 2019 and creates a map using the ggplot2 package to represent the data. The resulting map (below) shows how median age varies across different states in the U.S.\n\nThe script “spatialdata2” collects and maps Census data related to income in Texas, with a specific focus on Dallas County, for the year 2020. The color intensity on the maps represents variations in income levels. The first map provides a visual representation of income distribution across different geographic areas within Texas. The second map is an interactive map that focuses on income distribution in Dallas county.\n\nI was unable to embed the interactive map in this page, so I took a screenshot instead"
+  },
+  {
+    "objectID": "EPPS6302Assgmt8.html#compare-different-years-of-data-e.g.-2010-and-2020",
+    "href": "EPPS6302Assgmt8.html#compare-different-years-of-data-e.g.-2010-and-2020",
+    "title": "EPPS 6302 Assignment 08",
+    "section": "Compare different years of data (e.g. 2010 and 2020)",
+    "text": "Compare different years of data (e.g. 2010 and 2020)\nI begin by comparing the median age by state maps. First I created the following map for 2009 data:\n\nThen I created the following map for 2021 data. The comparison reveals a decrease in the median age in much of the central United States and some other states like Pennsylvania.\n\nNext I compared the Texas income data for two different years. First I created the following map for 2011.\n\n\n\nTexas Income Distribution 2011\n\n\nThen I created the map for 2021. The comparison shows an increase in median household incomes in a variety of counties in West Texas and the Panhandle, but also in a variety of areas outside the cities of the Texas Triangle.\n\n\n\nTexas Income Distribution 2021\n\n\nTo compare the change in Dallas County over time, I first created the map for 2011\n\n\n\nDallas Income Distribution 2011\n\n\nThen I created the map for 2021. The comparison shows a striking increase in median income particular in north central Dallas County.\n\n\n\nDallas Income Distribution 2021"
   }
 ]
