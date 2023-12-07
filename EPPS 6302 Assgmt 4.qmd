@@ -1,0 +1,23 @@
+---
+title: "EPPS6302 Assignment 4 YouTube"
+format: html
+editor: visual
+---
+
+## Run YouTubeNews01.R
+
+I run the code provided and download the data:
+
+![](images/Screenshot%202023-11-13%20at%201.18.10%20PM-01.png)
+
+I run the code provided and download the popular videos data:
+
+![](images/Screenshot%202023-11-13%20at%201.26.55%20PM.png)
+
+I run the code provided for NBC News and create the dataframe for NBC videos:
+
+![](images/Screenshot%202023-11-13%20at%201.30.55%20PM.png)
+
+And download the sample comments:
+
+![](images/Screenshot%202023-11-13%20at%201.35.24%20PM.png)

@@ -11,7 +11,7 @@ rrynbrandt\@collin.edu
 
 ryan.rynbrandt\@utdallas.edu
 
-# Ryan Rynbrandt 
+# Ryan Rynbrandt
 
 PROFESSOR OF POLITICAL SCIENCE
 
@@ -21,13 +21,13 @@ Seeking a position at a top-tier university where I can use my expertise in teac
 
 ## Education
 
-2021-present
+2021-present: University of Texas Dallas PhD Program in Public Policy and Political Economy
 
-2005
+2005: University of Michigan, Ann Arbor MA Political Science
 
-University of Texas Dallas PhD Program in Public Policy and Political Economy
+Major: American Politics
 
-University of Michigan, Ann Arbor MA Political Science Major: American Politics First Minor: Public Policy and Administration Second Minor: Research Methodology
+First Minor: Public Policy and Administration Second Minor: Research Methodology
 
 ```         
     1997    Western Michigan University

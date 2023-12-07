@@ -1,0 +1,36 @@
+---
+title: "EPPS 6302 Assignment 02"
+---
+
+Assignment 2
+
+1. Read Panel Management: How to manage your market research survey panel (https://www.qualtrics.com/experience-management/research/how-to-manage-panel/) - complete
+
+2. Start recruiting five panelists from friends or classmates. Determine what column is needed for a panel. Be sure to include the email addresses. Alternatively send the link to panelists to pilot test the Movie Rental survey. – complete. I sent the survey to my panel and have already had completed surveys.
+
+![QualtricsPic](qualtricspic.png){fig-alt="qualtricspic"}
+
+ B. Google Trends data
+  a. Use Google Trends website to:
+    i. Search Trump, Biden and Election - complete
+    ii. Download the data - complete
+      1. Analyze the data: According to Google Trends, the data indicates the following: “Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.”
+        a. Dates – Google Trends provided data from 9/17/23, 11:16:00-05.00 through 9/18/23, 11:08:00-05:00
+        b. Intervals – Google Trends provided data in intervals of 8 minutes
+
+ ![Google Trends Data](GoogleTrendspic.png){fig-alt="GoogleTrendsPic"}
+ 
+b. Use gtrendsR package to do a. (use gtrendsR01.R program)
+  i. Search Trump, Biden and Election - complete
+  ii. Download the data - complete
+    1.	Analyze the data: I was able to run the script, but spent a long time looking for a way to actually look at the data in R Studio in a way that would allow me to compare it to the data I downloaded from Google Trends and cannot seem to figure it out. When I try to view it, I get this:
+      a. Dates – clearly R produced a longer timeline, going all the way back to before 2005.
+      b. Intervals – It is not clear to me what the intervals are since I can’t seem to find a way to view the actual data.
+ 
+![gtrendsRpic](gtrendsRpic.png){fig-alt="gtrendsRpic"}
+
+c. What are the differences between the two methods?
+Using Google Trends directly doesn’t require coding knowledge and is quite user-friendly.  For a while I didn’t know there was a script provided and struggled to find out how to write the code myself. Yet R has its advantages. Using R would allow automation of the process, allowing small changes to the script to make it simple to repeatedly retrieve and analyze the data in different ways.  This would allow easier reproduction and customization of the analysis in the future. 
+
+
+![My screenshot](myscreenshot.png){fig-alt="myscreenshot"}

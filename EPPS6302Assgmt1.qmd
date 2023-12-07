@@ -1,0 +1,56 @@
+---
+title: "EPPS 6302 Assignment 01"
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+2)  Analyze Survey:
+
+a)  How is the survey structured? 
+  The survey begins with an introduction that is fairly incomplete. It should introduce the project more thoroughly but without biasing answers to the questions that follow. The intro is followed by 18 questions. The first 13 questions ask about the respondent's preferences and behaviors regarding movies and software. The remaining questions ask about the respondent's characteristics in terms of location, demographics, marital status and income.
+
+b)  What is the questionnaire composed of? 
+  The questionnaire is composed of an introduction, a panel of statements to which the respondent can express degrees of agreement, numerous multiple choice questions, multiple yes/no questions, two questions asking the respondent to choose an expected cost, two questions that require a choice from a drop-down menu
+
+c)  How are the questions ordered? 
+  The survey begins with an introduction, which is followed by 18 questions. The first 13 questions ask about the respondent's preferences and behaviors regarding movies and software. The remaining questions ask about the respondent's characteristics in terms of location, demographics, marital status and income.
+  
+d)  Check out the Import from Library option to consider importing:
+  a.  US race question (under Demographics→US demographics) - complete 
+  b. US Zip code question - complete
+
+3)  Change the Look and Feel (paint roller icon on left menu) to select UT Dallas theme -- complete
+
+4)  Use Skip Logic in Q4, if answer is NO, skip to the question Q7 "Do you feel comfortable purchasing software over the internet? -- complete
+
+5)  Apply Validation to every question (Force Response) -- complete
+
+6)  Insert Page break to save respondents from scrolling down the screen -- complete
+
+7)  What can be done to improve respondent's experience?
+    A better introduction would help.It should introduce the project thoroughly but without biasing the answers to come.
+    But I think overall the survey does a good job being concise, providing understandable response options, using a variety of questions types, thanking the respondent before and after the survey, etc.
+
+According to the ExpertReview, a few things could be done to improve the respondent's experience.
+These include optimizing the questions for mobile, completing translations for each question, making the questions accessible and WCAG 2.0AA compliant, and enabling checking for bots.
+
+The completed assignment can be found at <https://utdallas.qualtrics.com/jfe/form/SV_5ncdyREPX40LZWe>
+
+Further assignment: Importing a survey from Qualtrics library 
+1.Create a survey using your library, then choose Qualtrics library -- complete
+
+2.  Choose All Projects and Programs → Search for "Diversity and Inclusiveness Survey" -- complete
+
+3.  Import a block with income and education questions.
+    -- complete
+
+4.  What is the difference between this block and previous Instrument?
+    This block has a more detailed income question.
+    It asks about total household income before taxes, rather than just about household income.
+    It has six income categories rather than four and it includes a "prefer not to say" option.
+    The previous instrument did not include a question about education.
+
+The completed assignment can be found at <https://utdallas.qualtrics.com/jfe/form/SV_eJMcPV4uwiCtWho>
+
+

@@ -1,0 +1,20 @@
+---
+title: "EPPS 6302 Assignment 05"
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+1\) Run textmining01.R and organize the data in data frames and run text analytics (e.g. Wordcloud) 
+
+![](images/MLK text analytics-02.png)
+
+![](images/MLK Wordcloud Rplot.png)
+
+![](images/WC text analytics.png)
+
+![](images/WC Wordcloud Rplot.png){width="355"}
+
+2\) Run rvest01.R and organize the data in data frames and run text analytics (e.g. Wordcloud) 
+
+I did these, but somehow I cannnot get it to work on this website

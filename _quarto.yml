@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Ryan Rynbrandt"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+      - text: About
+      - text: EPPS 6302 Assignments
+        menu:
+          - EPPS6302Assgmt1.qmd
+          - EPPS6302Assgmt2.qmd
+          - EPPS6302Assgmt3.qmd
+          - EPPS6302Assgmt4.qmd
+          - EPPS6302Assgmt5.qmd
+          - EPPS6302Assgmt7.qmd
+      - href: RynbrandtCV.qmd
+      - text: Curriculum Vitae
+        menu:
+          - RynbrandtCV.qmd
+         
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    editor: visual

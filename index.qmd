@@ -1,0 +1,31 @@
+---
+title: "Ryan T. Rynbrandt"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+![ProfilePic](RynbrandtHeadShot2022.png){fig-alt="qualtricspic"
+width="270"}
+
+Ryan Rynbrandt is a Professor of Political Science at Collin College,
+where he has been teaching courses in American and Texan government for
+nearly two decades. He is currently pursuing his PhD in Public Policy
+and Political economy at UT Dallas.
+
+## **Research Interests:**
+
+*Human Happiness, Well-being and Thriving*
+
+*Mental Health Interventions*
+
+*Education Economics and Policy*
+
+*Health Policy*
+
+## **Contact Me:**
+
+[LinkedIn](https://www.linkedin.com/in/ryan-rynbrandt-98480b32/)
+
+This is a Quarto website. To learn more about Quarto websites visit
+<https://quarto.org/docs/websites>.
